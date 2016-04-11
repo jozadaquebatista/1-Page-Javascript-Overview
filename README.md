@@ -1,7 +1,7 @@
 <img src="http://ourcodeworld.com/public-media/articles/articleocw-565adecfc4fe7.jpg" />
 
 # A JavaScript Full Overview
-A Collection of JS covering some features of ES/5-ES/6
+A Collection of JS code, that just will teach you in a simple way the main concepts of the language covering some features of ES/5-ES/6
 
 # What I'll cover?
 <ol>
