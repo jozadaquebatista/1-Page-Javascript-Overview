@@ -20,3 +20,16 @@ A Collection of JS code, that will teach you in a simple way the main concepts o
   <li>Promisses</li>
   <li>and more ...</li>
 </ol>
+
+´´´javascript
+#test
+const name = 'Jozadaque.';
+
+function say(msg) {
+  return function() {
+    console.log("Hello", msg);
+  }
+}
+
+say(name)();
+´´´
