@@ -21,8 +21,7 @@ A Collection of JS code, that will teach you in a simple way the main concepts o
   <li>and more ...</li>
 </ol>
 
-´´´javascript
-#test
+```js
 const name = 'Jozadaque.';
 
 function say(msg) {
@@ -32,4 +31,4 @@ function say(msg) {
 }
 
 say(name)();
-´´´
+```
