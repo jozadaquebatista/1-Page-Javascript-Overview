@@ -13,6 +13,7 @@ A Collection of JS code, that will teach you in a simple way the main concepts o
   <li>Arrays</li>
   <li>Strings</li>
   <li>Functions</li>
+  <li>Anonymous Functions</li>
   <li>Objects</li>
   <li>Classes</li>
   <li>Intro to functional programming.</li>
