@@ -19,7 +19,7 @@ A Collection of JS code, that will teach you in a simple way the main concepts o
   <li>Intro to functional programming.</li>
   <li>Generators</li>
   <li>Promisses</li>
-  <li>and more ...</li>
+  <li>and more</li>
 </ol>
 
 ```js
