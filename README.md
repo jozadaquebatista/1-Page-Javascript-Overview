@@ -28,6 +28,7 @@ A Collection of JS code, that will teach you in a simple way the main concepts o
   <li>Iterator<li>
   <li>Promises<li>
   <li>Metaprogramming<li>
+  <li>Symbol</li>
 </ol>
 
 ```js
