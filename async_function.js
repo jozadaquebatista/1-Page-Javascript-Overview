@@ -6,9 +6,11 @@
 const number_range = 400;
 
 class MyRandomnessClass {  
-  static getValue() {
-    return Math.round(Math.random() * number_range);
-  }
+	static getValue() {
+		return Math.round(
+			Math.random() * number_range
+		);
+	}
 }
 
 function add(a,b,callback) {
@@ -21,10 +23,11 @@ function add(a,b,callback) {
 	},50);
 }
 
-add(	MyRandomnessClass.getValue( number_Range ),
-    	MyRandomnessClass.getValue( number_Range ),
-    	data => {
-	    	console.log('resultado da soma: ' + data);
-});
+add(	MyRandomnessClass.getValue(number_Range),
+    	MyRandomnessClass.getValue(number_Range),
+			data => {
+				console.log('resultado da soma: ' + data);
+			}
+);
 
 console.info('> and it continues to flow ... YEAAAAAH :O');
