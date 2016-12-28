@@ -13,18 +13,18 @@ class MyRandomnessClass {
 
 function add(a,b,callback) {
 	setTimeout(_=>{
-    if(callback === 'function') {
-		  callback(a+b);
-    } else {
-      throw 'ops, object is not of type <function>.';
-    }
+		if(callback === 'function') {
+			callback(a+b);
+		} else {
+			throw 'ops, object is not of type <function>.';
+		}
 	},50);
 }
 
-add(MyRandomnessClass.getValue( number_Range ),
-    MyRandomnessClass.getValue( number_Range ),
-    data => {
-	    console.log('resultado da soma: ' + data);
+add(	MyRandomnessClass.getValue( number_Range ),
+    	MyRandomnessClass.getValue( number_Range ),
+    	data => {
+	    	console.log('resultado da soma: ' + data);
 });
 
 console.info('> and it continues to flow ... YEAAAAAH :O');
