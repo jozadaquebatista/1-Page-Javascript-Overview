@@ -17,6 +17,7 @@ A Collection of JS code, that will teach you in a simple way the main concepts o
 - Objects
 - Classes
 - Intro to functional programming.
+- Callbacks
 - Generators
 - Promisses
 - Template literals
